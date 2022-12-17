@@ -1,0 +1,8 @@
+# inore vendor
+vendor
+# ignore .jekyll-cache
+.jekyll-cache
+.jekyll-cache/Jekyll/Cache
+
+
+
