@@ -13,7 +13,7 @@
     <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
   
   
-  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+<!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
   
     <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -35,50 +35,47 @@
   });
 </script>
 
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>  
 
- <!--   <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
-  
 
-  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
-  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+  <link rel="stylesheet" type="text/css" href="/tufte-jekyll/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/tufte-jekyll/css/print.css" media="print"> -->
 
-  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="canonical" href="http://localhost:4000/tufte-jekyll/">
 
-  <link rel="alternate" type="application/rss+xml" title="Aqui Tem Informação" href="http://localhost:4000/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Tufte-Jekyll" href="http://localhost:4000/tufte-jekyll/feed.xml" />
 </head>
 
   <body class="full-width">
     <!--- Header and nav template site-wide -->
 <header>
     <nav class="group">
-	<a href="/"><img class="badge" src="/assets/img/badge_1.png" alt="CH"></a>
+	<a href="/tufte-jekyll/"><img class="badge" src="/tufte-jekyll/assets/img/badge_1.png" alt="CH"></a>
 	
 		
   	
 		
 		    
-		      <a class="active" href="/" class="active">blog</a>
+		      <a class="active" href="/tufte-jekyll/" class="active">blog</a>
 		    
 	    
   	
 		
 		    
-		      <a href="/about/">Sobre</a>
+		      <a href="/tufte-jekyll/about/">About</a>
 		    
 	    
   	
 		
 		    
-		      <a href="/page/">Navezinhas</a>
+		      <a href="/tufte-jekyll/page/">page</a>
 		    
 	    
   	
 		
 		    
-		      <a href="/css/print.css"></a>
+		      <a href="/tufte-jekyll/css/print.css"></a>
 		    
 	    
   	
@@ -92,26 +89,42 @@
           
         <li class="listing">
           <hr class="slender">
-          <a href="/articles/20/The-Expanse"><h3 class="contrast">The Expanse: Ficção Científica "by the book"</h3></a>
-          <br><span class="smaller">August 21, 2020</span>  <br/>
-          <div><p>The Expanse, não chove, nem molha. Na maioria dos momentos, os personagens me são indiferentes.</p>
+          <a href="/tufte-jekyll/articles/20/Edge-Cases"><h3 class="contrast">Edge Cases</h3></a>
+          <br><span class="smaller">April 13, 2020</span>  <br/>
+          <div><p>Some edge cases and cautionary examples on using Markdown for writing content using this theme. In particular, list syntax can really knot things up.</p>
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender">
+          <a href="/tufte-jekyll/articles/20/tufte-style-jekyll-blog"><h3 class="contrast">Tufte-style Jekyll blog</h3></a>
+          <br><span class="smaller">April 13, 2020</span>  <br/>
+          <div><p><span class="newthought">The Tufte Jekyll theme</span>  is an attempt to create a website design with the look and feel of Edward Tufte’s books and handouts. Tufte’s style is known for its extensive use of sidenotes, tight integration of graphics with text, and well-set typography.</p>
 </div> 
         </li>
     
   </ul>
     </article>
-    <span class="print-footer">blog - Igor Lemes</span>
+    <span class="print-footer">blog - clay harmon</span>
     <footer>
   <hr class="slender">
   <ul class="footer-links">
-    <li><a href="igorlemes@ufmg.br"><span class="icon-mail3"></span></a></li>    
+    <li><a href="mailto:hate@spam.net"><span class="icon-mail3"></span></a></li>    
     
       <li>
-        <a href="//www.twitter.com/igorlemes84"><span class="icon-twitter"></span></a>
+        <a href="//www.twitter.com/twitter_handle"><span class="icon-twitter"></span></a>
       </li>
     
       <li>
-        <a href="//github.com/igorlemes"><span class="icon-github"></span></a>
+        <a href="//plus.google.com/+googlePlusName"><span class="icon-google2"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/GithubHandle"><span class="icon-github"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.flickr.com/photos/FlickrUserID"><span class="icon-flickr3"></span></a>
       </li>
     
       <li>
@@ -119,13 +132,17 @@
       </li>
     
       <li>
-        <a href="//www.linkedin.com/in/igorlemes/"><span class="icon-linkedin"></span></a>
+        <a href="//vimeo.com/vimeo-id"><span class="icon-vimeo2"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.linkedin.com/"><span class="icon-linkedin"></span></a>
       </li>
       
   </ul>
 <div class="credits">
-<span>&copy; 2020 &nbsp;&nbsp;Igor Lemes</span></br> <br>
-<span>Site criado com <span class="fa fa-heart"></span> Tufte theme for Informação Des-Necessária </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
+<span>&copy; 2022 &nbsp;&nbsp;CLAY HARMON</span></br> <br>
+<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for Content-centric blogging </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
 </div>  
 </footer>
   </body>
