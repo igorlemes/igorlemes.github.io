@@ -1,31 +1,126 @@
----
-layout: null
-nav_exclude: true
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Igor Lemes</title>
+    <description>A Jekyll theme for content-rich sites</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 19 Jan 2023 02:18:48 -0500</pubDate>
+    <lastBuildDate>Thu, 19 Jan 2023 02:18:48 -0500</lastBuildDate>
+    <generator>Jekyll v4.3.1</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Conto da Agua</title>
+        <description>&lt;p&gt;Somente um simples conto.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Água. Água. Era a única coisa que passava na mente dela. O que não era uma surpresa, considerando que ela já estava sob o sol há inúmeras horas. Reclinada sobre o campo de aveia, com uma pequena foice na mão esquerda tentava cortar o mais baixo possível, enquanto segurava o maço com sua mão direita, ambas ressecadas e assemelhavam-se mais à lixas velhas e quebradiças do que a pele de uma adolescente.&lt;/p&gt;
+
+&lt;p&gt;— Água — falou baixinho, com o resto de fôlego que lhe restara enquanto se levantava.&lt;/p&gt;
+
+&lt;p&gt;Os campos de aveia iam até o horizonte, onde o amarelo dessaturado encontrava o azul celeste.&lt;/p&gt;
+
+&lt;p&gt;Virou-se em direção a uma pequena mata, onde o verde escuro prometia alguns segundos em que seus pés se livrariam das prisões de mormaço que suas botas tinham se tornado.&lt;/p&gt;
+
+&lt;p&gt;— Onde você pensa que vai? — gritou de longe o velho de calças marrons e chapéu que se camuflava com a aveia.&lt;/p&gt;
+
+&lt;p&gt;— Eu vou buscar água — respondeu — eu não aguento mais.&lt;/p&gt;
+
+&lt;p&gt;— Você acabou de beber água — retrucou indignado.&lt;/p&gt;
+
+&lt;p&gt;Com a cabeça baixa, ela percorreu o curto espaço em que a aveia já havia sido colhida, enquanto pensava em todo o tempo que havia levado para colhe-la. Uma eternidade.&lt;/p&gt;
+
+&lt;p&gt;Chegou à borda da mata, onde as garrafas de água eram deixadas para que permanecessem frescas. Pegou a garrafa, entrou alguns passos dentro da mata densa e de vegetação baixa. Observou por alguns segundos a ribanceira que havia ali, há poucos metros de distância. Como havia feito da última vez, tirou suas botas, colocou seus pés na terra úmida e bebeu um grande gole da água que tanto desejava.&lt;/p&gt;
+
+&lt;p&gt;Fechou os olhos e respirou fundo o ar fresco, enquanto ouvia o vento sacudir de leve as folhas das árvores e o som da agua que corria no fundo do desfiladeiro. Se imaginou em uma terra distante, onde não havia pó para entrar em seus pulmões. Se imaginou nadando em um rio numa tarde de domingo. Desejou saber nadar. Se imaginou nas grandes cidades que via na televisão e desejou fugir dali.&lt;/p&gt;
+
+&lt;p&gt;Com os olhos fechados, remexia a terra com os pés, quanto mais os afundava, mais gelados eles ficavam. Poderia ficar ali eternamente, mas o som de uma Curruíra exasperada cortou o silêncio. Foi quando ela abriu os olhos.&lt;/p&gt;
+
+&lt;p&gt;— Bebendo água, não é!? — vociferou o velho na beira da mata, enquanto o pássaro cantava em desespero — vai cortar aveia… Agora!&lt;/p&gt;
+
+&lt;p&gt;Ela pegou suas botas com as mãos rapidamente contornando a figura decrépita que a encarava. Já estava quase saindo da mata quando pisou em algo gelado e escamoso. Ao mesmo tempo que ela deu conta do que era aquilo, sentiu uma dor excruciante na panturrilha. Tão rápido quanto a picada, foi o pulo que ela deu para se afastar da cobra. Desequilibrada, viu o mundo girar diversas vezes enquanto tombava ribanceira abaixo, até que parou, mas tudo que ela via era o marrom claro da água do rio.&lt;/p&gt;
+
+&lt;p&gt;O desespero tomou conta de seu corpo, os músculos ficaram tensos e a pele se tornou gélida instantaneamente, seus braços se debatiam como se fossem independentes de seu corpo, suas pernas se movimentavam desesperadamente em busca do chão. Os gritos se transformavam em simples bolhas e só podiam ser ouvidos pelas criaturas que habitavam o fundo do rio. Ela seguiu se debatendo, até que somente a ponta de seus dedos conseguiam tocar o ar. Sentiu seus músculos perdendo as forças e a dor da água entrando pelo nariz e boca foi só um prelúdio dos pulmões se enchendo com a água turva do riacho. Em sua mente só havia um pensamento, ar. Aos poucos, até os mais perseverantes dos músculos, desistiram. Enquanto perdia sua consciência uma ultima súplica restava: Ar. Ar.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 28 Dec 2020 22:17:00 -0500</pubDate>
+        <link>/articles/20/Conto-da-agua</link>
+        <guid isPermaLink="true">/articles/20/Conto-da-agua</guid>
+        
+        
+        <category>post</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>The Expanse: Ficção Científica &quot;by the book&quot;</title>
+        <description>&lt;p&gt;The Expanse, não chove, nem molha. Na maioria dos momentos, os personagens me são indiferentes.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;about-emotion&quot;&gt;About Emotion&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Eu sou apaixonado por histórias&lt;/span&gt; , não importa como elas chegam até mim, seja por livros, através do cinema, em um álbum musical narrativo, jogos, teatro ou até mesmo podcasts. Eu sempre gostei e fui cativado pelas mais variadas pessoas que apareciam nessas histórias, reais ou imaginárias. Através delas eu aprendi coisas sobre o mundo, eu aprendi sobre história, sobre ciência, geografia e mais importante, sobre os problemas que as pessoas enfrentam. Muitos desses problemas, eu nunca tive que vivenciar, mas a vivacidade com que as histórias eram contadas me fizeram imaginar.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/solarspectrum.png&quot; /&gt;&lt;br /&gt;O espectro do Sol
+&lt;em&gt;From: &lt;a href=&quot;https://solarsystem.nasa.gov/resources/390/the-solar-spectrum/&quot;&gt;https://solarsystem.nasa.gov/resources/390/the-solar-spectrum/&lt;/a&gt;&lt;/em&gt;  &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Desde muito cedo eu imaginei como seria viver no século XVIII, quando Newton desvendava os mistérios da luz e do espectro luminoso. Eu me imaginei como aquele raio de luz, com suas pequenas partes suas sendo absorvidas pelos mais diversos elementos, deixando uma marca escondida em suas ondas. E mesmo depois de centenas de milhares de anos sendo ricocheteado entre os átomos da estrela, aquele pequeno e insignificante raio de luz consegue chegar a superfície, tendo então que viajar milhões e milhões de quilômetros até chegar no prisma de Isaac, em um dia qualquer em que ele descobriu uma maneira de determinar a composição química das estrelas.&lt;/p&gt;
+
+&lt;p&gt;Mais do que entender o funcionamento do universo, essas histórias me fizeram entender as pessoas. Através das mazelas que compartilhávamos ou ainda por aquelas que eu não entendia inicialmente, mas com imaginação e principalmente emoção eu consegui me colocar no lugar das pessoas.&lt;/p&gt;
+
+&lt;p&gt;Acredito que a emoção é o aspecto mais importante da vida humana. Sem ela não conseguimos decidir nada, ficamos inertes aos acontecimentos do mundo, sem conseguir fazer a mais básica das tarefas, como escolher uma roupa. E assim como na vida real, histórias sem emoção não nos movem, não nos fazem torcer por determinado personagem, muito menos nos fazem temer que ele falhe em sua jornada, ou que ele morra na tentativa. Esse é um dos maiores problemas de The Expanse, não chove, nem molha. Na maioria dos momentos, os personagens me são indiferentes.&lt;/p&gt;
+
+&lt;h3 id=&quot;good-science-bad-storytelling&quot;&gt;Good Science, Bad Storytelling&lt;/h3&gt;
+
+&lt;p&gt;Esse é um problema muito comum em muitas ficções científicas ou fantásticas, seus criadores passam tanto tempo criando e polindo um mundo perfeito, com tantos pormenores que poderiam ser confundidos com o mundo real em sua complexidade. Mas estes se esquecem do mais importante, o ser humano.&lt;/p&gt;
+
+&lt;p&gt;Não importa em qual mundo, universo ou realidade em que os personagens vivam, se eles não transmitem emoção, o contador de histórias falhou. Ficção científica tem como objetivo tirar o personagem dos problemas do nosso dia a dia aqui no terceiro planeta e coloca-lo numa situação em que o &lt;em&gt;storyteller&lt;/em&gt; possa explorar os sentimentos e a natureza humana pelo que ela é, livre do nosso contexto e muitas vezes atrelado à outro.&lt;/p&gt;
+
+&lt;p&gt;As melhores ficções científicas não são sobre física do mundo ou aspectos da tecnologia, elas são sobre relações humanas, e como nós nos relacionaríamos com os outros naquele contexto.&lt;/p&gt;
+
+&lt;p&gt;Dito isso, é muito fácil ver que o mundo de The Expanse é muito bem construido, muito provavelmente por ser inspirada em uma série de oito livros escritos por James S. A. Corey (que eu infelizmente não li), e apesar de minhas críticas eu valorizo muito isso em uma obra, talvez por influência de mundos que aparecem nas minhas histórias favoritas, como a Terra Média ou ainda o mundo de &lt;em&gt;Game of Thrones&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Também valorizo muito ficções que criam mundos cientificamente precisos, e alguns dos meus filmes prediletos são assim, como Perdido em Marte de Ridley Scott ou Interestelar de Christopher Nolan, mas o que esses aclamados diretores fazem de diferente dos &lt;em&gt;show runners&lt;/em&gt; Mark Fergus and Hawk Ostby é usar esse mundo para contar a história, quase como um personagem por si só, interagindo com os personagens, vestindo a máscara de arauto, mentor e até da sombra.&lt;/p&gt;
+
+&lt;p&gt;Simplesmente ser cientificamente preciso não leva uma obra a lugar nenhum, no máximo será mais um vídeo da série &lt;a href=&quot;https://youtu.be/_zqiAceKzbg&quot;&gt;Scientifically Accurate™&lt;/a&gt;, mas certamente não será tão engraçado quanto.&lt;/p&gt;
+
+&lt;p&gt;Uma das primeiras regras para um &lt;em&gt;storyteller&lt;/em&gt; é “&lt;em&gt;Show, don’t tell&lt;/em&gt;”, e nessa série são muitos os momentos em que os personagens simplesmente começam a falar as regras do mundo, isso acontece logo nos primeiros cinco minutos e se repete ao longo de toda a primeira temporada, fazendo com que eu conheça muito bem como o mundo está organizado, mas não faz com que eu me importe com um personagem sequer.&lt;/p&gt;
+
+&lt;p&gt;Problemas como a falta de água e a o ar escasso me colocaram um pouco mais próximo dos &lt;em&gt;Belters&lt;/em&gt;, viver em um sistema em que prioriza o lucro sobre o bem estar das pessoas fez eu me identificar com os infortúnios deles (por que será né!?), mas com ninguém em específico. Nós temos dificuldades de nos identificar com grandes quantidades de pessoas, mas quando alguém, com nome, amigos e família sofre, nós sofremos junto. The Expanse não me fez sofrer junto com ninguém.&lt;/p&gt;
+
+&lt;p&gt;Assim como em &lt;em&gt;Game of Thrones&lt;/em&gt;, The Expanse tenta juntar gêneros diferentes em uma única obra e é algo de fato ambicioso, o problema é que em nenhum dos arcos os personagens tem uma boa motivação, ou nos faz acreditar nela. Uma das características de &lt;em&gt;GoT&lt;/em&gt; que ficou muito famosa é a facilidade com que personagens morriam, o que a princípio pode parecer estranho, pois personagens morrem a todo instante em diversas séries, mas o diferencial era que os roteiristas matavam personagens com quem a audiência se identificava, não eram simples personagens, eram seres humanos, trazidos à vida pelos atores, suas dores e sofrimentos foram compartilhados com a audiência, assim suas mortes foram verdadeiramente sentidas.&lt;/p&gt;
+
+&lt;p&gt;Já em The Expanse, os personagens que morrem são irrelevantes, desde a tripulação da Canterbury, até os personagens que aparecem nos pequenos contos, sendo vítimas do sistema em que vivem. No arco em que o gênero predominante é Space Opera, Holden (Steven Strait) começa a série em um relacionamento com Ade (Kristen Hager), navegadora da Canterbury, em que nenhum dos dois se mostram muito comprometidos. Holden está relutante em aceitar um cargo importante na nave, supostamente por seu relacionamento, mas aparentemente esse é um motivo secundário, o primário seria “continuar sorrindo”.&lt;/p&gt;
+
+&lt;p&gt;A falta de desenvolvimento de Ade resulta em indiferença na hora de sua morte, um simples e tardio “There is something you should know” não muda nada. Toda a carga emocional que Holden supostamente sente ao longo da temporada, causada pela explosão, não chega até nós. Amos e Kamal são personagens caricatos e rasos. Já Naomi, não é desenvolvida em boa parte da primeira temporada propositalmente, para que a bordo da nave Marciana ela se torne o bode expiatório de pecados que nem sabemos se ela cometeu, mas mesmo depois desse momento, a personagem continua um mistério, mas é certamente a melhor da equipe que poderia muito bem ter sido construida a partir fichas padrões de um sistema de RPG qualquer.&lt;/p&gt;
+
+&lt;p&gt;No arco de detetive policial, Thomas Jane não faz um papel melhor ao interpretar Joe Miller, um detetive viciado em whisky que é o clássico “bom, mas precisa de um psicólogo”. Ainda mais considerando que sua motivação não é deixada clara na série, e a única coisa que é transmitida várias vezes é que ele estaria apaixonado pela garota desaparecida, Julie Mao, mas por mais rápido que pode-se apaixonar por uma pessoa (eu sei bem como é isso), a paixão dele não é crível. Minha curiosidade me levou à uma &lt;em&gt;thread&lt;/em&gt; no Reddit, em que um leitor dos livros descreve a motivação dele como:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It is spelled out in the book that he finds out that he’s the office joke. The low effort, don’t give a shit detective that nobody wanted to partner with. This ends up motivating him.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Isso é mostrado na série, mas não é dado o enfoque necessário, caso seja esse o objetivo dos &lt;em&gt;show runners&lt;/em&gt;. Por fim o arco político foi satisfatório a atriz principal é uma das melhores da série, e a politicagem perpetrada por ela em nome do poder é impressionante, mas deixou a desejar em relação aos supostos conflitos entre Terra, Marte e os &lt;em&gt;Belters&lt;/em&gt;, novamente, é dito que existe o conflito, nunca mostram exatamente qual.&lt;/p&gt;
+
+&lt;p&gt;Na série como um geral, eu não consigo identificar com certeza se os diálogos são ruins e os atores estão tendo que tirar leite de pedra pra trazer à vida os personagens, ou se os atores são simplesmente medíocres, pode ainda ser os dois. Discutir atuação é uma armadilha, pois muitas vezes está diretamente relacionada com o orçamento da série, e achar tesouros a um bom preço não é tão fácil quanto parece, e considerando que todas as locações são no Canadá, é seguro dizer que o orçamento é apertado. 
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/assets/img/opening.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Frame da Abertura de &lt;em&gt;The Expanse&lt;/em&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Depois de retalhar essa obra com meus comentário, devo reconhecer que uma coisa muito boa é a abertura, que é imediatamente cativante, um encontro maravilhoso de &lt;a href=&quot;https://www.youtube.com/watch?v=l4UPJv08c1k&quot;&gt;Battlestar Gallactica&lt;/a&gt; com a premiada abertura de &lt;a href=&quot;https://www.youtube.com/watch?v=0fV5WNudPPU&quot;&gt;Manhattan&lt;/a&gt;, cada cena digna de pinturas, e as semelhanças com Battlestar Gallactica não param por aí, a direção que utiliza &lt;em&gt;shaky camera&lt;/em&gt; nos lembra automaticamente de BSG, de uma maneira boa, essa técnica costuma ser usada para passar um senso de realidade, e ela cumpre o objetivo, mas nada mais. Uma boa metáfora para descrever a direção é compara-la à uma refeição, aqui ela é um mingau, nutritivo, mas sem personalidade, e enjoa muito rápido.&lt;/p&gt;
+
+&lt;p&gt;Eu estou sendo extremamente crítico e exigente com as falhas dessa série, eu já consegui me divertir muito mais, com muito menos, mas acho que a ambição dessa série me faz prestar mais atenção. Ela tenta ser uma &lt;em&gt;Game of Thrones&lt;/em&gt; espacial e se ela deseja estar nos padrões das grandes obras, nada mais justo do que julgar de acordo com esses padrões. E no fundo, eu queria, com todas as minhas forças que ela fosse tudo que aspirava ser, porquê isso significaria que estaria entre as minhas séries favoritas, de todos os tempos, pois teria tudo que eu valorizo e gosto em uma obra audiovisual.&lt;/p&gt;
+
+&lt;p&gt;O potencial existe, mas é um grande equívoco pensar que potencial significa um bom resultado, quanto maior o potencial, mais trabalho deve ser colocado para torná-lo realidade. Potencial não fala sobre o resultado, só o que poderia ter sido, e essa é a conjugação de verbo mais triste pra se falar sobre um trabalho artístico.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 21 Aug 2020 08:00:00 -0400</pubDate>
+        <link>/articles/20/The-Expanse</link>
+        <guid isPermaLink="true">/articles/20/The-Expanse</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
   </channel>
 </rss>
